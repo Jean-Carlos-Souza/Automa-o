@@ -8,3 +8,4 @@ service = Service(ChromeDriverManager().install())
 
 navegador = webdriver.Chrome(service=service)
 
+navegador.get('https://www.youtube.com/')
