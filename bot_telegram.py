@@ -3,7 +3,7 @@
 import telebot
 #ir na opção de busca do telegram e procurar o botfather para criar um novo bot
 
-chave_bot = '7385679188:AAEtrdWMEdibRHnYjNDCRCwhLGNg6rI_sZY' #é para ser uma informação secreta
+chave_bot = '738567.....' #é para ser uma informação secreta
 
 bot = telebot.TeleBot(chave_bot)
 
