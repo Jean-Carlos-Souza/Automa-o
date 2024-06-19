@@ -15,8 +15,11 @@ class MeuAplicativo(App):
     
     def on_start(self):  #vai rodar essa função sempre q o app inicializar
         cotacao_dolar = self.pegar_moeda("USD")
-        self.root.ids["moeda1"].text = f"dolar {self.pegar_moeda('USD')}"
-        self.root.ids["moeda2"].text = f"euro {self.pegar_moeda('EUR')}"
+        self.root.ids["moeda1"].text = f"Dolar {self.pegar_moeda('USD')}"
+        self.root.ids["moeda2"].text = f"Euro {self.pegar_moeda('EUR')}"
+        self.root.ids["moeda3"].text = f"BTC {self.pegar_moeda('BTC')}"
+        self.root.ids["moeda4"].text = f"Iene {self.pegar_moeda('JPY')}"
+
     
     def pegar_moeda(self, moeda):
         link = f"https://economia.awesomeapi.com.br/last/{moeda}-BRL"

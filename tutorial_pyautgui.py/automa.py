@@ -16,7 +16,8 @@ time.sleep(3)
 #pyautogui.moveTo(x=100, y=471, duration=3)
 #pyautogui.click(x=100, y=471)
 #pyautogui.moveTo(x=1275, y=419, duration=3)
-#pyautogui.click(x=1275, y=419)
+#pyautogui.clic"se inscreve la"
+#k(x=1275, y=419)
 #pyautogui.scroll(-500)  #número negativo = rolar para baixo
 #os.system('cls')
 
